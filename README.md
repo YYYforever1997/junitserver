@@ -1,2 +1,0 @@
-# junitserver
-Mac project
