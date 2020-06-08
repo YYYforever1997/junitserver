@@ -3,7 +3,8 @@ from flask import Flask, request, redirect, url_for
 #from werkzeug import secure_filename
 from werkzeug.utils import secure_filename
 
-UPLOAD_FOLDER = '/Users/guodongzhang/Desktop/毕设/junitserver'
+UPLOAD_FOLDER = '/upload'
+# UPLOAD_FOLDER = '/Users/guodongzhang/Desktop/毕设/junitserver'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
 app = Flask(__name__)
