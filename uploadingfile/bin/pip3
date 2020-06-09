@@ -1,4 +1,4 @@
-#!/Users/guodongzhang/Desktop/untitled/bin/python
+#!/Users/guodongzhang/Desktop/毕设/junitserver/uploadingfile/bin/bin/python -x
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==19.0.3','console_scripts','pip3'
 __requires__ = 'pip==19.0.3'
 import re
