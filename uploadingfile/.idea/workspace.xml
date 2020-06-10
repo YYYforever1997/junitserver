@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e277659e-22fd-48d8-b2bf-b335361e7929" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/static/fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/confirmpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/uploadpage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/fileinput-rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/fileinput.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/layui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/layui.mobile.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/modules/code.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/modules/laydate/default/laydate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/modules/layer/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/modules/layer/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/modules/layer/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/modules/layer/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/modules/layer/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/css/modules/layer/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../page/examples/upload.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/flask/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/flask/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/jinja2/loaders.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/jinja2/loaders.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_internal/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/index.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/python3.7/site-packages/pip-19.0.3-py3.7.egg/pip/_vendor/distlib/locators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -31,6 +54,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -44,7 +68,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -66,6 +90,7 @@
       <workItem from="1591574419057" duration="880000" />
       <workItem from="1591652435723" duration="68000" />
       <workItem from="1591701815359" duration="525000" />
+      <workItem from="1591760558842" duration="7480000" />
     </task>
     <servers />
   </component>
@@ -85,38 +110,58 @@
     </state>
     <state x="835" y="372" key="FileChooserDialogImpl/40.23.1640.1027@40.23.1640.1027" timestamp="1591702133000" />
     <state x="836" y="372" key="FileChooserDialogImpl/41.23.1639.1027@41.23.1639.1027" timestamp="1591701884296" />
-    <state width="797" height="280" key="GridCell.Tab.0.bottom" timestamp="1591732044797">
-      <screen x="41" y="23" width="1639" height="1027" />
+    <state width="798" height="345" key="GridCell.Tab.0.bottom" timestamp="1591768550087">
+      <screen x="40" y="23" width="1640" height="1027" />
     </state>
-    <state width="797" height="280" key="GridCell.Tab.0.bottom/40.23.1640.1027@40.23.1640.1027" timestamp="1591702357848" />
-    <state width="797" height="280" key="GridCell.Tab.0.bottom/41.23.1639.1027@41.23.1639.1027" timestamp="1591732044797" />
-    <state width="797" height="280" key="GridCell.Tab.0.center" timestamp="1591732044797">
-      <screen x="41" y="23" width="1639" height="1027" />
+    <state width="798" height="345" key="GridCell.Tab.0.bottom/40.23.1640.1027@40.23.1640.1027" timestamp="1591768550087" />
+    <state width="797" height="280" key="GridCell.Tab.0.bottom/41.23.1639.1027@41.23.1639.1027" timestamp="1591768475377" />
+    <state width="798" height="345" key="GridCell.Tab.0.center" timestamp="1591768550085">
+      <screen x="40" y="23" width="1640" height="1027" />
     </state>
-    <state width="797" height="280" key="GridCell.Tab.0.center/40.23.1640.1027@40.23.1640.1027" timestamp="1591702357847" />
-    <state width="797" height="280" key="GridCell.Tab.0.center/41.23.1639.1027@41.23.1639.1027" timestamp="1591732044797" />
-    <state width="797" height="280" key="GridCell.Tab.0.left" timestamp="1591732044796">
-      <screen x="41" y="23" width="1639" height="1027" />
+    <state width="798" height="345" key="GridCell.Tab.0.center/40.23.1640.1027@40.23.1640.1027" timestamp="1591768550085" />
+    <state width="797" height="280" key="GridCell.Tab.0.center/41.23.1639.1027@41.23.1639.1027" timestamp="1591768475376" />
+    <state width="798" height="345" key="GridCell.Tab.0.left" timestamp="1591768550085">
+      <screen x="40" y="23" width="1640" height="1027" />
     </state>
-    <state width="797" height="280" key="GridCell.Tab.0.left/40.23.1640.1027@40.23.1640.1027" timestamp="1591702357846" />
-    <state width="797" height="280" key="GridCell.Tab.0.left/41.23.1639.1027@41.23.1639.1027" timestamp="1591732044796" />
-    <state width="797" height="280" key="GridCell.Tab.0.right" timestamp="1591732044797">
-      <screen x="41" y="23" width="1639" height="1027" />
+    <state width="798" height="345" key="GridCell.Tab.0.left/40.23.1640.1027@40.23.1640.1027" timestamp="1591768550085" />
+    <state width="797" height="280" key="GridCell.Tab.0.left/41.23.1639.1027@41.23.1639.1027" timestamp="1591768475376" />
+    <state width="798" height="345" key="GridCell.Tab.0.right" timestamp="1591768550086">
+      <screen x="40" y="23" width="1640" height="1027" />
     </state>
-    <state width="797" height="280" key="GridCell.Tab.0.right/40.23.1640.1027@40.23.1640.1027" timestamp="1591702357848" />
-    <state width="797" height="280" key="GridCell.Tab.0.right/41.23.1639.1027@41.23.1639.1027" timestamp="1591732044797" />
+    <state width="798" height="345" key="GridCell.Tab.0.right/40.23.1640.1027@40.23.1640.1027" timestamp="1591768550086" />
+    <state width="797" height="280" key="GridCell.Tab.0.right/41.23.1639.1027@41.23.1639.1027" timestamp="1591768475377" />
+    <state width="798" height="345" key="GridCell.Tab.1.bottom" timestamp="1591768550088">
+      <screen x="40" y="23" width="1640" height="1027" />
+    </state>
+    <state width="798" height="345" key="GridCell.Tab.1.bottom/40.23.1640.1027@40.23.1640.1027" timestamp="1591768550088" />
+    <state width="798" height="345" key="GridCell.Tab.1.bottom/41.23.1639.1027@41.23.1639.1027" timestamp="1591766500228" />
+    <state width="798" height="345" key="GridCell.Tab.1.center" timestamp="1591768550087">
+      <screen x="40" y="23" width="1640" height="1027" />
+    </state>
+    <state width="798" height="345" key="GridCell.Tab.1.center/40.23.1640.1027@40.23.1640.1027" timestamp="1591768550087" />
+    <state width="798" height="345" key="GridCell.Tab.1.center/41.23.1639.1027@41.23.1639.1027" timestamp="1591766500227" />
+    <state width="798" height="345" key="GridCell.Tab.1.left" timestamp="1591768550087">
+      <screen x="40" y="23" width="1640" height="1027" />
+    </state>
+    <state width="798" height="345" key="GridCell.Tab.1.left/40.23.1640.1027@40.23.1640.1027" timestamp="1591768550087" />
+    <state width="798" height="345" key="GridCell.Tab.1.left/41.23.1639.1027@41.23.1639.1027" timestamp="1591766500227" />
+    <state width="798" height="345" key="GridCell.Tab.1.right" timestamp="1591768550088">
+      <screen x="40" y="23" width="1640" height="1027" />
+    </state>
+    <state width="798" height="345" key="GridCell.Tab.1.right/40.23.1640.1027@40.23.1640.1027" timestamp="1591768550088" />
+    <state width="798" height="345" key="GridCell.Tab.1.right/41.23.1639.1027@41.23.1639.1027" timestamp="1591766500228" />
     <state x="549" y="250" key="SettingsEditor" timestamp="1591702138349">
       <screen x="40" y="23" width="1640" height="1027" />
     </state>
     <state x="549" y="250" key="SettingsEditor/40.23.1640.1027@40.23.1640.1027" timestamp="1591702138349" />
     <state x="550" y="250" key="SettingsEditor/41.23.1639.1027@41.23.1639.1027" timestamp="1591701946562" />
-    <state x="537" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1591701815637">
+    <state x="537" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1591760559940">
       <screen x="41" y="23" width="1639" height="1027" />
     </state>
-    <state x="537" y="369" key="com.intellij.ide.util.TipDialog/41.23.1639.1027@41.23.1639.1027" timestamp="1591701815637" />
+    <state x="537" y="369" key="com.intellij.ide.util.TipDialog/41.23.1639.1027@41.23.1639.1027" timestamp="1591760559940" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/uploadingfile$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1591732011592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/uploadingfile$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1591768475370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/untitled$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1591575284888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
