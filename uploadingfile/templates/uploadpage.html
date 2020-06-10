@@ -26,12 +26,13 @@
 
 </head>
 
+
 <body class="layui-layout-body">
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
         <div class="layui-logo"><i class="layui-icon layui-icon-app" style="font-size: 30px; color: #1E9FFF;"></i>   A JUnit Server</div>
         <ul class="layui-nav layui-layout-left">
-            <li class="layui-nav-item"><a href="">Files Upload</a></li>
+            <li class="layui-nav-item"><a href="">Students id</a></li>
         </ul>
         <ul class="layui-nav layui-layout-right">
             <li class="layui-nav-item"><a href=""></a></li>
@@ -47,7 +48,10 @@
                     <br>
                     <h5>Upload the Java files</h5>
                     <!-- <input id="file-0" name="file-0" type="file"> -->
-
+                    <form action="" method=post enctype=multipart/form-data>
+                        <p><input type=file name=file height="2">
+                            <input type=submit value=Upload height="2">
+                    </form>
                     <!-- <form enctype="multipart/form-data">
                         <script>
                             $(document).on('ready', function () {
@@ -67,6 +71,10 @@
                     <br>
                     <br>
                     <h5>Upload the JUnit test files</h5>
+                    <form action="" method=post enctype=multipart/form-data>
+                        <p><input type=file name=file height="2">
+                           <input type=submit value=Upload height="2">
+                    </form>
                     <!-- <input id="file-1" name="file-0" type="file">
                     <form enctype="multipart/form-data">
                         <script>
@@ -101,11 +109,6 @@
     });
 </script> -->
 
-
-<form action="" method=post enctype=multipart/form-data>
-    <p> <input type=file name=file>
-        <input type=submit value=Upload>
-</form>
 
 </body>
 </html>
