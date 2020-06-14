@@ -1,9 +1,9 @@
-package com.trustie.test;
+package com.junit;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import com.trustie.junitest.calculate;
+import com.java.calculate;
 
 public class calculatetest{
 	calculate calculation = new calculate();

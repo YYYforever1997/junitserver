@@ -1,4 +1,4 @@
-package com.trustie.junitest;
+package com.java;
 
 public class calculate2{
 

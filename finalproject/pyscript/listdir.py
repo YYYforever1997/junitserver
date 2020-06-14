@@ -26,8 +26,8 @@ def flist(filepath):
 javadic= flist(javapath)
 junitdic= flist(junitpath)
 
-print("java doc:",javadic)
-print("junit doc:",junitdic)
+#print("java doc:",javadic)
+#print("junit doc:",junitdic)
 
 
 

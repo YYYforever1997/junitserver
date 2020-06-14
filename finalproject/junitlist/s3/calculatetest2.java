@@ -1,10 +1,10 @@
-package com.trustie.test;
+package com.junit;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import com.trustie.junitest.calculate;
-import com.trustie.junitest.calculate2;
+import com.java.calculate;
+import com.java.calculate2;
 
 public class calculatetest2{
 	calculate calculation = new calculate();
