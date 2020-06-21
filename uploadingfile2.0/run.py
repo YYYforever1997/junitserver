@@ -34,13 +34,13 @@ def upload_file():
         if javafile and allowed_file(javafile.filename):
             filename = secure_filename(javafile.filename)
             # javafile.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            JAVAUPLOAD_FOLDER_id = JAVAUPLOAD_FOLDER+'/s1'                      '''Student id will be added here'''
+            JAVAUPLOAD_FOLDER_id = JAVAUPLOAD_FOLDER+'/s1'                      #Student id will be added here
             javafile.save(os.path.join(JAVAUPLOAD_FOLDER_id, filename))
             return redirect(url_for('upload_success', filename=filename))
 
         if junitfile and allowed_file(junitfile.filename):
             filename = secure_filename(junitfile.filename)
-            JUNITUPLOAD_FOLDER_id = JUNITUPLOAD_FOLDER + '/s1'                  '''Student id will be added here'''
+            JUNITUPLOAD_FOLDER_id = JUNITUPLOAD_FOLDER + '/s1'                  #Student id will be added here
             junitfile.save(os.path.join(JUNITUPLOAD_FOLDER_id, filename))
             return redirect(url_for('upload_success', filename=filename))
     return render_template("uploadpage.html")

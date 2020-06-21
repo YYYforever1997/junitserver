@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e277659e-22fd-48d8-b2bf-b335361e7929" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uploadingfile2.0/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uploadingfile2.0/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uploadingfile2.0/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../uploadingfile2.0/.idea/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uploadingfile2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../uploadingfile2.0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uploadingfile2.0/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/../uploadingfile2.0/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +82,8 @@
       <workItem from="1591760558842" duration="7480000" />
       <workItem from="1591792367695" duration="544000" />
       <workItem from="1591792936468" duration="2113000" />
+      <workItem from="1592705130815" duration="58000" />
+      <workItem from="1592710603635" duration="86000" />
     </task>
     <servers />
   </component>
@@ -94,10 +102,11 @@
       <screen x="40" y="23" width="1640" height="1027" />
     </state>
     <state x="301" y="218" key="#com.intellij.execution.impl.EditConfigurationsDialog/40.23.1640.1027@40.23.1640.1027" timestamp="1591702340511" />
-    <state x="556" y="172" key="#untitled" timestamp="1591792448896">
-      <screen x="40" y="23" width="1640" height="1027" />
+    <state x="558" y="172" key="#untitled" timestamp="1592705186557">
+      <screen x="43" y="23" width="1637" height="1027" />
     </state>
     <state x="556" y="172" key="#untitled/40.23.1640.1027@40.23.1640.1027" timestamp="1591792448896" />
+    <state x="558" y="172" key="#untitled/43.23.1637.1027@43.23.1637.1027" timestamp="1592705186557" />
     <state x="835" y="372" key="FileChooserDialogImpl" timestamp="1591792476292">
       <screen x="40" y="23" width="1640" height="1027" />
     </state>
@@ -151,16 +160,27 @@
     </state>
     <state width="798" height="345" key="GridCell.Tab.1.right/40.23.1640.1027@40.23.1640.1027" timestamp="1591768550088" />
     <state width="798" height="345" key="GridCell.Tab.1.right/41.23.1639.1027@41.23.1639.1027" timestamp="1591766500228" />
-    <state x="549" y="250" key="SettingsEditor" timestamp="1591792480763">
-      <screen x="40" y="23" width="1640" height="1027" />
+    <state x="551" y="250" key="SettingsEditor" timestamp="1592705161990">
+      <screen x="43" y="23" width="1637" height="1027" />
     </state>
     <state x="549" y="250" key="SettingsEditor/40.23.1640.1027@40.23.1640.1027" timestamp="1591792480763" />
     <state x="550" y="250" key="SettingsEditor/41.23.1639.1027@41.23.1639.1027" timestamp="1591701946562" />
+    <state x="551" y="250" key="SettingsEditor/43.23.1637.1027@43.23.1637.1027" timestamp="1592705161990" />
     <state x="536" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1591792368210">
       <screen x="40" y="23" width="1640" height="1027" />
     </state>
     <state x="536" y="369" key="com.intellij.ide.util.TipDialog/40.23.1640.1027@40.23.1640.1027" timestamp="1591792368210" />
     <state x="537" y="369" key="com.intellij.ide.util.TipDialog/41.23.1639.1027@41.23.1639.1027" timestamp="1591760559940" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/run.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/uploadingfile$untitled.coverage" NAME="untitled Coverage Results" MODIFIED="1592699840851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
