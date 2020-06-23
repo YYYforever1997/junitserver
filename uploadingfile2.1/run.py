@@ -4,10 +4,10 @@ from flask import Flask, request, redirect, url_for, render_template
 from werkzeug.utils import secure_filename
 
 # UPLOAD_FOLDER = '/upload'
-# JAVAUPLOAD_FOLDER = ''
-# JAVAUPLOAD_FOLDER = ''
-JAVAUPLOAD_FOLDER = '/Users/guodongzhang/Desktop/毕设/junitserver/filestore/javalist'
-JUNITUPLOAD_FOLDER = '/Users/guodongzhang/Desktop/毕设/junitserver/filestore/junitlist'
+JAVAUPLOAD_FOLDER = '/upload/javalist'
+JUNITUPLOAD_FOLDER = '/upload/junitlist'
+# JAVAUPLOAD_FOLDER = '/Users/guodongzhang/Desktop/毕设/junitserver/filestore/javalist'
+# JUNITUPLOAD_FOLDER = '/Users/guodongzhang/Desktop/毕设/junitserver/filestore/junitlist'
 ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
 app = Flask(__name__)
